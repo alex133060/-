@@ -19,5 +19,6 @@ for i in range(len(a)):
 f=open('students_with_hash.csv','w',encoding='utf-8')
 f.write(shapka)
 for x in a:
+
     x[0]=hash(x)
     f.write(','.join(x)+'\n')
