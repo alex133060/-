@@ -23,6 +23,12 @@ for j in range(len(a)):
     pw = create_pass()
     a[j].append(pw)
 
+
+
+
+
+
+
 with open('students_password.csv', 'w') as f:
     f.write(','.join(title))
     for item in a:
