@@ -22,5 +22,6 @@ for x in a:
 
 
 
+
     x[0]=hash(x)
     f.write(','.join(x)+'\n')
